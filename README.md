@@ -15,9 +15,9 @@
 <!-- SOCIAL BADGES -->
 <div align="center">
   
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-  [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://YOUR_PORTFOLIO)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/makkararpit/)
+  [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arpitmakkar1204@gmail.com)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://arpitmakkar12.github.io/Arpit-Makkar-Portfolio/)
   [![Profile Views](https://komarev.com/ghpvc/?username=ArpitMakkar12&style=for-the-badge&color=6C63FF)](https://github.com/ArpitMakkar12)
   
 </div>
