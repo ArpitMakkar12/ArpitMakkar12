@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="450" viewBox="0 0 410 450" role="img" aria-labelledby="t">
+  <title id="t">Retail Shopping Behavior Analysis: 3,900 transactions to a SQL model and a 5-page Power BI dashboard. $233K revenue traced; 76.6% from two categories.</title>
+  <style>
+    /* Theme colours (dark). The light file is the same drawing: only this block changes. */
+    svg {
+      --card: #151b23; --line: #2a313c; --panel: #0d1117; --panel-line: #21262d;
+      --text: #e6edf3; --body: #c9d1d9; --muted: #9198a1;
+      --accent: #2dd4bf; --ink: #2dd4bf; --on-accent: #0d1117;
+      --node: #545d68; --faint: #1c2129; --chip: #0d1117;
+    }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .card { fill: var(--card); stroke: var(--line); }
+    .panel { fill: var(--panel); stroke: var(--panel-line); }
+    .title { fill: var(--text); font-weight: 700; }
+    .text { fill: var(--text); }
+    .body { fill: var(--body); }
+    .muted { fill: var(--muted); }
+    .tag { fill: var(--ink); letter-spacing: 1.4px; }
+    .ink { fill: var(--ink); }
+    .accent { fill: var(--accent); }
+    .on-accent { fill: var(--on-accent); }
+    .node-fill { fill: var(--node); }
+    .chip rect { fill: var(--chip); stroke: var(--line); }
+    .chip text { fill: var(--body); }
+    .ring-base { fill: none; stroke: var(--faint); stroke-width: 14; }
+    .ring { fill: none; stroke: var(--accent); stroke-width: 14; }
+    .baseline { stroke: var(--faint); stroke-width: 1.5; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- Card background -->
+  <rect class="card" x="0.5" y="0.5" width="409" height="449" rx="16"/>
+
+  <!-- Top: illustration -->
+    <rect class="panel" x="20" y="20" width="370" height="164" rx="12"/>
+    <text class="mono muted" x="36" y="42" font-size="10">revenue by category</text>
+    <circle class="ring-base" cx="110" cy="108" r="44"/>
+    <circle class="ring" cx="110" cy="108" r="44" stroke-dasharray="211.8 276.5" transform="rotate(-90 110 108)"/>
+    <text class="sans title" x="110" y="114" font-size="17" text-anchor="middle">76.6%</text>
+    <text class="mono muted" x="110" y="174" font-size="9.5" text-anchor="middle">clothing + accessories</text>
+    <line class="baseline" x1="196" y1="165" x2="374" y2="165"/>
+    <rect class="accent" x="204" y="68" width="22" height="96" rx="3"/>
+    <rect class="node-fill" x="238" y="98" width="22" height="66" rx="3"/>
+    <rect class="node-fill" x="272" y="112" width="22" height="52" rx="3"/>
+    <rect class="node-fill" x="306" y="124" width="22" height="40" rx="3"/>
+    <rect class="node-fill" x="340" y="136" width="22" height="28" rx="3"/>
+
+  <!-- Bottom: what it is, proof, stack -->
+    <text class="mono tag" x="24" y="220" font-size="11.5">ANALYTICS · 2026</text>
+    <text class="sans title" x="24" y="252" font-size="22" letter-spacing="-0.3">Retail Behavior Analytics</text>
+    <text class="sans body" x="24" y="282" font-size="14">Turns 3,900 raw transactions into a SQL model,</text>
+    <text class="sans body" x="24" y="303" font-size="14">a 5-page Power BI dashboard and a stakeholder</text>
+    <text class="sans body" x="24" y="324" font-size="14">report on what actually drives revenue.</text>
+    <text class="sans title" x="24" y="366" font-size="20">$233K</text>
+    <text class="sans muted" x="24" y="385" font-size="11.5">revenue traced</text>
+    <text class="sans title" x="146" y="366" font-size="20">76.6%</text>
+    <text class="sans muted" x="146" y="385" font-size="11.5">from 2 categories</text>
+    <text class="sans title" x="268" y="366" font-size="20">12</text>
+    <text class="sans muted" x="268" y="385" font-size="11.5">SQL queries</text>
+    <g class="chip"><rect x="24" y="402" width="61" height="26" rx="13"/><text class="mono" x="34" y="419" font-size="11.5">Python</text></g>
+    <g class="chip"><rect x="93" y="402" width="89" height="26" rx="13"/><text class="mono" x="103" y="419" font-size="11.5">PostgreSQL</text></g>
+    <g class="chip"><rect x="190" y="402" width="75" height="26" rx="13"/><text class="mono" x="200" y="419" font-size="11.5">Power BI</text></g>
+    <g class="chip"><rect x="273" y="402" width="61" height="26" rx="13"/><text class="mono" x="283" y="419" font-size="11.5">Pandas</text></g>
+</svg>
