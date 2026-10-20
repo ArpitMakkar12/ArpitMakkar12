@@ -62,7 +62,7 @@
 [Business Entity Resolution](https://github.com/ArpitMakkar12/business-entity-resolution) ·
 [Document Summary Assistant](https://github.com/ArpitMakkar12/document-summary-assistant) ·
 [Quantum Drug Discovery Assistant](https://github.com/ArpitMakkar12/Quantum-Drug-Discovery-Assistant) ·
-[FinMate](https://github.com/ArpitMakkar12/FinMate-Smart-Student-Expense-Tracker) — student expense tracker
+[FinMate](https://github.com/ArpitMakkar12/FinMate-Smart-Student-Expense-Tracker)
 
 ### Recognition
 
