@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="336" viewBox="0 0 840 336" role="img" aria-labelledby="t">
+  <title id="t">Project Eidolon: AI-powered cyber deception system. A self-healing 50-node honeypot network with breach alerts within 60 seconds.</title>
+  <style>
+    /* Theme colours (dark). The light file is the same drawing: only this block changes. */
+    svg {
+      --card: #151b23; --line: #2a313c; --panel: #0d1117; --panel-line: #21262d;
+      --text: #e6edf3; --body: #c9d1d9; --muted: #9198a1;
+      --accent: #2dd4bf; --ink: #2dd4bf; --on-accent: #0d1117;
+      --node: #545d68; --faint: #1c2129; --chip: #0d1117;
+    }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .card { fill: var(--card); stroke: var(--line); }
+    .panel { fill: var(--panel); stroke: var(--panel-line); }
+    .title { fill: var(--text); font-weight: 700; }
+    .text { fill: var(--text); }
+    .body { fill: var(--body); }
+    .muted { fill: var(--muted); }
+    .tag { fill: var(--ink); letter-spacing: 1.4px; }
+    .ink { fill: var(--ink); }
+    .accent { fill: var(--accent); }
+    .on-accent { fill: var(--on-accent); }
+    .node-fill { fill: var(--node); }
+    .chip rect { fill: var(--chip); stroke: var(--line); }
+    .chip text { fill: var(--body); }
+    .link { stroke: var(--faint); stroke-width: 2; }
+    .node { fill: var(--panel); stroke: var(--node); stroke-width: 1.5; }
+    .attack { fill: none; stroke: var(--ink); stroke-width: 1.6; stroke-dasharray: 4 5; animation: march 1.2s linear infinite; }
+    .alert-line { fill: none; stroke: var(--ink); stroke-width: 1.2; opacity: 0.7; }
+    .alert-box { fill: var(--panel); stroke: var(--ink); }
+    .attacker { fill: none; stroke: var(--ink); stroke-width: 2; }
+    .ping { fill: none; stroke: var(--ink); stroke-width: 1.5; transform-box: fill-box; transform-origin: center; animation: ping 1.8s ease-out infinite; }
+    @keyframes march { to { stroke-dashoffset: -18; } }
+    @keyframes ping { 0% { transform: scale(0.6); opacity: 0.9; } 100% { transform: scale(1.9); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- Card background -->
+  <rect class="card" x="0.5" y="0.5" width="839" height="335" rx="16"/>
+
+  <!-- Left: what it is, proof, stack -->
+    <text class="mono tag" x="32" y="52" font-size="12">SECURITY · GENAI · 2026</text>
+    <text class="sans title" x="32" y="94" font-size="34" letter-spacing="-0.5">Project Eidolon</text>
+    <text class="sans muted" x="32" y="122" font-size="15">AI-powered cyber deception system</text>
+    <text class="sans body" x="32" y="158" font-size="15">A self-healing, 50-node honeypot network that</text>
+    <text class="sans body" x="32" y="180" font-size="15">lures attackers into a fake corporate world</text>
+    <text class="sans body" x="32" y="202" font-size="15">and raises a breach alert within 60 seconds.</text>
+    <text class="sans title" x="32" y="246" font-size="24">50</text>
+    <text class="sans muted" x="32" y="265" font-size="11.5">honeypot nodes</text>
+    <text class="sans title" x="162" y="246" font-size="24">&lt;60s</text>
+    <text class="sans muted" x="162" y="265" font-size="11.5">breach alerts</text>
+    <text class="sans title" x="292" y="246" font-size="24">Llama 3</text>
+    <text class="sans muted" x="292" y="265" font-size="11.5">live fake endpoints</text>
+    <g class="chip"><rect x="32" y="286" width="61" height="26" rx="13"/><text class="mono" x="42" y="303" font-size="11.5">Python</text></g>
+    <g class="chip"><rect x="101" y="286" width="103" height="26" rx="13"/><text class="mono" x="111" y="303" font-size="11.5">Docker Swarm</text></g>
+    <g class="chip"><rect x="212" y="286" width="82" height="26" rx="13"/><text class="mono" x="222" y="303" font-size="11.5">ELK Stack</text></g>
+    <g class="chip"><rect x="302" y="286" width="48" height="26" rx="13"/><text class="mono" x="312" y="303" font-size="11.5">Groq</text></g>
+
+  <!-- Right: decoy network diagram -->
+    <rect class="panel" x="460" y="24" width="356" height="288" rx="12"/>
+    <text class="mono muted" x="478" y="50" font-size="10.5">attacker</text>
+    <text class="mono muted" x="798" y="50" font-size="10.5" text-anchor="end">50-node decoy network</text>
+    <line class="link" x1="560" y1="104" x2="760" y2="104"/>
+    <line class="link" x1="560" y1="150" x2="760" y2="150"/>
+    <line class="link" x1="560" y1="196" x2="760" y2="196"/>
+    <line class="link" x1="560" y1="242" x2="760" y2="242"/>
+    <line class="link" x1="560" y1="104" x2="560" y2="242"/>
+    <line class="link" x1="610" y1="104" x2="610" y2="242"/>
+    <line class="link" x1="660" y1="104" x2="660" y2="242"/>
+    <line class="link" x1="710" y1="104" x2="710" y2="242"/>
+    <line class="link" x1="760" y1="104" x2="760" y2="242"/>
+    <rect class="node" x="553" y="97" width="14" height="14" rx="3"/>
+    <rect class="node" x="603" y="97" width="14" height="14" rx="3"/>
+    <rect class="node" x="653" y="97" width="14" height="14" rx="3"/>
+    <rect class="node" x="703" y="97" width="14" height="14" rx="3"/>
+    <rect class="node" x="753" y="97" width="14" height="14" rx="3"/>
+    <rect class="node" x="553" y="143" width="14" height="14" rx="3"/>
+    <rect class="accent" x="603" y="143" width="14" height="14" rx="3"/>
+    <rect class="node" x="653" y="143" width="14" height="14" rx="3"/>
+    <rect class="node" x="703" y="143" width="14" height="14" rx="3"/>
+    <rect class="node" x="753" y="143" width="14" height="14" rx="3"/>
+    <rect class="node" x="553" y="189" width="14" height="14" rx="3"/>
+    <rect class="node" x="603" y="189" width="14" height="14" rx="3"/>
+    <rect class="node" x="653" y="189" width="14" height="14" rx="3"/>
+    <rect class="node" x="703" y="189" width="14" height="14" rx="3"/>
+    <rect class="node" x="753" y="189" width="14" height="14" rx="3"/>
+    <rect class="node" x="553" y="235" width="14" height="14" rx="3"/>
+    <rect class="node" x="603" y="235" width="14" height="14" rx="3"/>
+    <rect class="node" x="653" y="235" width="14" height="14" rx="3"/>
+    <rect class="node" x="703" y="235" width="14" height="14" rx="3"/>
+    <rect class="node" x="753" y="235" width="14" height="14" rx="3"/>
+    <path class="attack" d="M503 88 C 540 100, 562 140, 601 147"/>
+    <circle class="attacker" cx="496" cy="82" r="7"/>
+    <circle class="ping" cx="610" cy="150" r="11"/>
+    <path class="alert-line" d="M603 156 C 572 182, 534 222, 526 262"/>
+    <rect class="alert-box" x="478" y="262" width="96" height="30" rx="8"/>
+    <text class="mono ink" x="526" y="281" font-size="10.5" text-anchor="middle">ALERT &lt; 60s</text>
+    <text class="mono muted" x="798" y="294" font-size="10.5" text-anchor="end">Logstash → Elasticsearch → Kibana</text>
+</svg>
